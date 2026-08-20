@@ -145,7 +145,7 @@ The journal-formatted citation and DOI should be taken from the final publisher 
 ## Project links
 
 - Canonical EBL repository: [https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization](https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization)
-- Personal account entry: [https://github.com/Shyr0796/EBL](https://github.com/Shyr0796/EBL)
+- Personal account entry: [https://github.com/Shyr0796/road-network-evacuation-optimization](https://github.com/Shyr0796/road-network-evacuation-optimization)
 - Author website: [https://chun-song.com](https://chun-song.com)
 - Final manuscript: [`manuscript/CEUS.pdf`](manuscript/CEUS.pdf)
 - Plotting index: [`PLOTTING_INDEX.md`](PLOTTING_INDEX.md)
