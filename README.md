@@ -8,9 +8,11 @@ It consolidates the final manuscript, publication figures, legacy experiment res
 
 Author website: **[Chun Song — https://chun-song.com](https://chun-song.com)**
 
+Canonical repository: **[Emergent-Balance-Lab/road-network-evacuation-optimization](https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization)**
+
 ## Repository scope
 
-The complete release-ready analysis and plotting code for this paper is maintained in this **EBL** repository. All plotting scripts are collected in one directory, use a single portable path configuration, and read only from the released result data.
+The complete release-ready analysis and plotting code for this paper is maintained by the **Emergent Balance Lab (EBL)** in the canonical organization repository linked above. All plotting scripts are collected in one directory, use a single portable path configuration, and read only from the released result data.
 
 This public package contains:
 
@@ -59,8 +61,8 @@ EBL/
 Python 3.10 or newer is recommended.
 
 ```bash
-git clone https://github.com/Shyr0796/EBL.git
-cd EBL
+git clone https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization.git
+cd road-network-evacuation-optimization
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -142,7 +144,8 @@ The journal-formatted citation and DOI should be taken from the final publisher 
 
 ## Project links
 
-- Repository: [https://github.com/Shyr0796/EBL](https://github.com/Shyr0796/EBL)
+- Canonical EBL repository: [https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization](https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization)
+- Personal account entry: [https://github.com/Shyr0796/EBL](https://github.com/Shyr0796/EBL)
 - Author website: [https://chun-song.com](https://chun-song.com)
 - Final manuscript: [`manuscript/CEUS.pdf`](manuscript/CEUS.pdf)
 - Plotting index: [`PLOTTING_INDEX.md`](PLOTTING_INDEX.md)
@@ -151,4 +154,4 @@ The journal-formatted citation and DOI should be taken from the final publisher 
 
 ---
 
-中文说明：本仓库是论文的公开复现材料。论文对应的完整结果分析与绘图代码均集中在 `plotting/`，可直接读取 `results/` 中发布的数据生成图片和表格。项目与作者信息可访问个人网页 [https://chun-song.com](https://chun-song.com)。
+中文说明：本仓库是论文的公开复现材料。论文对应的完整结果分析与绘图代码均集中在 `plotting/`，可直接读取 `results/` 中发布的数据生成图片和表格。完整代码的正式地址是 [Emergent-Balance-Lab/road-network-evacuation-optimization](https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization)，项目与作者信息可访问个人网页 [https://chun-song.com](https://chun-song.com)。
