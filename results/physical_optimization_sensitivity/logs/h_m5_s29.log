@@ -1,0 +1,3 @@
+[nsga2] genes=15 pop=12 gen=1 crowd=50000
+[nsga2 h_m5_s29] gen 1/1 HV=5314215 |front0|=12 min_evac=1073.7 min_cost=0.0 el=1132s
+[nsga2 h_m5_s29] DONE front0=12 wall=1132s

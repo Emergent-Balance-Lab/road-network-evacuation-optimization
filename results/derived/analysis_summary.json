@@ -1,0 +1,18 @@
+{
+  "n_evals": 2249,
+  "n_pareto": 19,
+  "knee_runid": 838,
+  "knee_evac": 1309.6490432317505,
+  "knee_cost": 1264.2900000000002,
+  "weighted_runid": 1519,
+  "weighted_evac": 1364.7354948459872,
+  "weighted_cost": 547.7,
+  "evals_within_1pct": 495,
+  "macro": {
+    "free_speed": 1.337,
+    "max_density": 4.54,
+    "capacity": 0.679,
+    "n": 22759
+  },
+  "median_total_time": 889.0
+}

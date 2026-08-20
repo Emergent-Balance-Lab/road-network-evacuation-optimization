@@ -1,0 +1,8 @@
+param,value,crowd,wall_s,steps,T_total,N0,N_end
+baseline,default,8000,11.74,264,263,7910,1614
+smoothing_length,1.8,8000,10.89,229,228,7910,1613
+smoothing_length,3.0,8000,12.55,303,302,7910,1606
+density_threshold,3.0,8000,12.75,313,312,7910,1612
+density_threshold,5.0,8000,11.22,243,242,7910,1607
+speed_cap,1.2,8000,13.27,332,331,7910,1611
+speed_cap,2.0,8000,10.76,224,223,7910,1609

@@ -1,0 +1,16 @@
+{
+  "population": 50000,
+  "completed": 47500,
+  "completed_fraction": 0.95,
+  "t50_s": 417.716,
+  "t80_s": 963.512,
+  "t95_s": 1933.38,
+  "heatmap_cell_size_m": 5.0,
+  "heatmap_statistic": "median",
+  "heatmap_min_completed_count": 5,
+  "free_flow_samples": 46869,
+  "median_delay_above_free_flow_s": 309.1232,
+  "p90_delay_above_free_flow_s": 1078.1818000000014,
+  "median_time_to_free_flow_ratio": 4.7279085759785735,
+  "free_flow_bound_violations": 0
+}

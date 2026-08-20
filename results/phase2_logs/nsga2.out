@@ -1,0 +1,28 @@
+[nsga2] genes=16 pop=40 gen=25 crowd=50000
+[nsga2 main] gen 1/25 HV=1654766 |front0|=10 min_evac=1140.0 min_cost=1432.8 el=1714s
+[nsga2 main] gen 2/25 HV=1848520 |front0|=5 min_evac=1132.2 min_cost=1302.8 el=2560s
+[nsga2 main] gen 3/25 HV=1974794 |front0|=6 min_evac=1132.2 min_cost=1302.8 el=3399s
+[nsga2 main] gen 4/25 HV=1983089 |front0|=6 min_evac=1132.2 min_cost=1302.8 el=4232s
+[nsga2 main] gen 5/25 HV=2045861 |front0|=10 min_evac=1126.3 min_cost=987.7 el=5051s
+[nsga2 main] gen 6/25 HV=2124614 |front0|=12 min_evac=1126.3 min_cost=970.9 el=5884s
+[nsga2 main] gen 7/25 HV=2260023 |front0|=16 min_evac=1126.3 min_cost=970.9 el=6719s
+[nsga2 main] gen 8/25 HV=2502832 |front0|=16 min_evac=1125.3 min_cost=560.9 el=7540s
+[nsga2 main] gen 9/25 HV=2530860 |front0|=14 min_evac=1125.3 min_cost=408.5 el=8359s
+[nsga2 main] gen 10/25 HV=2529155 |front0|=14 min_evac=1125.3 min_cost=408.5 el=9191s
+[nsga2 main] gen 11/25 HV=2544212 |front0|=15 min_evac=1125.3 min_cost=408.5 el=10016s
+[nsga2 main] gen 12/25 HV=2710234 |front0|=14 min_evac=1123.2 min_cost=283.9 el=10835s
+[nsga2 main] gen 13/25 HV=2700231 |front0|=16 min_evac=1123.2 min_cost=283.9 el=11653s
+[nsga2 main] gen 14/25 HV=2718874 |front0|=18 min_evac=1123.2 min_cost=283.9 el=12462s
+[nsga2 main] gen 15/25 HV=2797929 |front0|=22 min_evac=1121.5 min_cost=16.8 el=13285s
+[nsga2 main] gen 16/25 HV=2804871 |front0|=23 min_evac=1121.5 min_cost=8.4 el=14139s
+[nsga2 main] gen 17/25 HV=2812363 |front0|=24 min_evac=1121.5 min_cost=8.4 el=15116s
+[nsga2 main] gen 18/25 HV=2815386 |front0|=28 min_evac=1121.5 min_cost=8.4 el=15995s
+[nsga2 main] gen 19/25 HV=2833101 |front0|=30 min_evac=1121.5 min_cost=8.4 el=16848s
+[nsga2 main] gen 20/25 HV=2836549 |front0|=30 min_evac=1121.5 min_cost=8.4 el=17679s
+[nsga2 main] gen 21/25 HV=2838621 |front0|=30 min_evac=1121.5 min_cost=0.0 el=18490s
+[nsga2 main] gen 22/25 HV=2843468 |front0|=30 min_evac=1121.5 min_cost=0.0 el=19324s
+[nsga2 main] gen 23/25 HV=2853460 |front0|=30 min_evac=1118.0 min_cost=0.0 el=20149s
+[nsga2 main] gen 24/25 HV=2856017 |front0|=30 min_evac=1118.0 min_cost=0.0 el=20984s
+[nsga2 main] gen 25/25 HV=2854423 |front0|=30 min_evac=1118.0 min_cost=0.0 el=21813s
+[nsga2 main] DONE front0=30 wall=21813s
+[nsga2 plot] front size=30 knee=(cost 756, evac 1197) HV final=2854423

@@ -1,0 +1,20 @@
+[ga base_s3] decision-vector length = 16 segments
+[ga base_s3] gen 1/18 best=738.1 mean=911.4 elapsed=402s
+[ga base_s3] gen 2/18 best=738.2 mean=850.0 elapsed=787s
+[ga base_s3] gen 3/18 best=717.5 mean=802.2 elapsed=1172s
+[ga base_s3] gen 4/18 best=682.6 mean=769.0 elapsed=1558s
+[ga base_s3] gen 5/18 best=663.8 mean=748.1 elapsed=1948s
+[ga base_s3] gen 6/18 best=638.7 mean=725.3 elapsed=2336s
+[ga base_s3] gen 7/18 best=640.0 mean=716.4 elapsed=2725s
+[ga base_s3] gen 8/18 best=624.1 mean=691.0 elapsed=3116s
+[ga base_s3] gen 9/18 best=624.3 mean=688.9 elapsed=3505s
+[ga base_s3] gen 10/18 best=604.0 mean=673.5 elapsed=3896s
+[ga base_s3] gen 11/18 best=605.2 mean=665.3 elapsed=4286s
+[ga base_s3] gen 12/18 best=604.0 mean=666.2 elapsed=4680s
+[ga base_s3] gen 13/18 best=604.0 mean=664.2 elapsed=5073s
+[ga base_s3] gen 14/18 best=603.9 mean=666.6 elapsed=5465s
+[ga base_s3] gen 15/18 best=604.5 mean=658.2 elapsed=5859s
+[ga base_s3] gen 16/18 best=604.6 mean=661.4 elapsed=6252s
+[ga base_s3] gen 17/18 best=604.0 mean=657.9 elapsed=6652s
+[ga base_s3] gen 18/18 best=605.2 mean=676.7 elapsed=7054s
+[ga base_s3] DONE evals=432 wall=7054s

@@ -1,0 +1,20 @@
+[ga cx06_s2] decision-vector length = 16 segments
+[ga cx06_s2] gen 1/18 best=844.8 mean=945.9 elapsed=227s
+[ga cx06_s2] gen 2/18 best=825.8 mean=909.0 elapsed=434s
+[ga cx06_s2] gen 3/18 best=744.4 mean=883.9 elapsed=650s
+[ga cx06_s2] gen 4/18 best=727.0 mean=828.5 elapsed=871s
+[ga cx06_s2] gen 5/18 best=725.6 mean=813.3 elapsed=1074s
+[ga cx06_s2] gen 6/18 best=726.8 mean=796.4 elapsed=1277s
+[ga cx06_s2] gen 7/18 best=675.4 mean=766.8 elapsed=1483s
+[ga cx06_s2] gen 8/18 best=676.4 mean=753.4 elapsed=1699s
+[ga cx06_s2] gen 9/18 best=630.5 mean=718.8 elapsed=1929s
+[ga cx06_s2] gen 10/18 best=579.1 mean=713.9 elapsed=2160s
+[ga cx06_s2] gen 11/18 best=577.9 mean=681.3 elapsed=2390s
+[ga cx06_s2] gen 12/18 best=579.1 mean=679.3 elapsed=2624s
+[ga cx06_s2] gen 13/18 best=577.9 mean=640.1 elapsed=2860s
+[ga cx06_s2] gen 14/18 best=577.6 mean=619.7 elapsed=3099s
+[ga cx06_s2] gen 15/18 best=578.0 mean=640.0 elapsed=3318s
+[ga cx06_s2] gen 16/18 best=578.1 mean=628.2 elapsed=3530s
+[ga cx06_s2] gen 17/18 best=577.7 mean=628.5 elapsed=3763s
+[ga cx06_s2] gen 18/18 best=578.8 mean=610.7 elapsed=3982s
+[ga cx06_s2] DONE evals=432 wall=3982s

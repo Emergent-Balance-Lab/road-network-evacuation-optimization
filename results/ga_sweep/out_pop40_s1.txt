@@ -1,0 +1,20 @@
+[ga pop40_s1] decision-vector length = 16 segments
+[ga pop40_s1] gen 1/18 best=762.6 mean=902.9 elapsed=356s
+[ga pop40_s1] gen 2/18 best=706.9 mean=842.7 elapsed=712s
+[ga pop40_s1] gen 3/18 best=665.9 mean=791.2 elapsed=1062s
+[ga pop40_s1] gen 4/18 best=637.3 mean=740.4 elapsed=1407s
+[ga pop40_s1] gen 5/18 best=632.5 mean=716.2 elapsed=1752s
+[ga pop40_s1] gen 6/18 best=599.7 mean=705.2 elapsed=2104s
+[ga pop40_s1] gen 7/18 best=598.6 mean=685.4 elapsed=2474s
+[ga pop40_s1] gen 8/18 best=596.1 mean=668.8 elapsed=2818s
+[ga pop40_s1] gen 9/18 best=578.7 mean=652.9 elapsed=3160s
+[ga pop40_s1] gen 10/18 best=578.7 mean=649.9 elapsed=3514s
+[ga pop40_s1] gen 11/18 best=578.9 mean=637.2 elapsed=3861s
+[ga pop40_s1] gen 12/18 best=577.9 mean=634.6 elapsed=4207s
+[ga pop40_s1] gen 13/18 best=577.7 mean=631.7 elapsed=4544s
+[ga pop40_s1] gen 14/18 best=577.8 mean=631.1 elapsed=4892s
+[ga pop40_s1] gen 15/18 best=577.1 mean=634.1 elapsed=5241s
+[ga pop40_s1] gen 16/18 best=578.0 mean=633.0 elapsed=5585s
+[ga pop40_s1] gen 17/18 best=577.8 mean=630.2 elapsed=5930s
+[ga pop40_s1] gen 18/18 best=577.3 mean=626.1 elapsed=6274s
+[ga pop40_s1] DONE evals=720 wall=6274s

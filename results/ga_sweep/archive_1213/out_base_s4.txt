@@ -1,0 +1,8 @@
+[ga base_s4] decision-vector length = 16 segments
+[ga base_s4] gen 1/18 best=794.5 mean=934.1 elapsed=388s
+[ga base_s4] gen 2/18 best=746.5 mean=858.3 elapsed=775s
+[ga base_s4] gen 3/18 best=742.3 mean=835.2 elapsed=1167s
+[ga base_s4] gen 4/18 best=713.5 mean=791.8 elapsed=1574s
+[ga base_s4] gen 5/18 best=628.3 mean=759.8 elapsed=1965s
+[ga base_s4] gen 6/18 best=630.9 mean=723.8 elapsed=2356s
+[ga base_s4] gen 7/18 best=629.8 mean=713.3 elapsed=2749s

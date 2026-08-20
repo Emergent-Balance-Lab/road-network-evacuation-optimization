@@ -1,0 +1,9 @@
+2026-06-24 16:30:19 | PHASE2 WAITING for GA sweep to finish (/home/shyr/workspace/src_ga/revision_2026/ga_sweep/SWEEP_DONE)
+2026-06-25 09:54:41 | GA sweep done — starting phase-2
+2026-06-25 09:54:41 | C2 NSGA-II start (pop=40 gen=25 crowd=50000, manuscript scenario)
+2026-06-25 15:58:15 | C2 NSGA-II done
+2026-06-25 15:58:15 | C5 SPH OFAT start (crowd=8000, fast consistent build)
+2026-06-25 15:59:46 | C5 SPH OFAT done -> /home/shyr/workspace/src_ga/revision_2026/data/sph_sensitivity_260624.csv
+2026-06-25 15:59:47 | C1 heatmap start (layer export variant, crowd=20000)
+2026-06-25 16:00:18 | C1 heatmap done
+2026-06-25 16:00:18 | PHASE2_ALL_DONE

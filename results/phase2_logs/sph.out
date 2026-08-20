@@ -1,0 +1,11 @@
+            param value  metric        pct
+   pressure_const   2.0  396.68   0.025216
+   pressure_const   0.5  395.31  -0.320238
+density_threshold   5.0  356.35 -10.144233
+    particle_mass  0.25  343.02 -13.505472
+ smoothing_length   1.8  334.16 -15.739573
+    particle_mass  0.50  459.38  15.835393
+        speed_cap   2.0  329.54 -16.904534
+ smoothing_length   3.0  479.94  21.019719
+        speed_cap   1.2  507.71  28.022089
+density_threshold   3.0  519.54  31.005094

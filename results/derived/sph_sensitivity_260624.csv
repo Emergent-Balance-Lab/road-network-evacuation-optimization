@@ -1,0 +1,12 @@
+param,value,wall_s,steps,T_total,N0,N_end,metric
+baseline,default,,254,253,7904,1613,395.340650
+smoothing_length,1.8,,213,212,7904,1607,334.16
+smoothing_length,3.0,,311,310,7904,1604,479.94
+density_threshold,3.0,,340,339,7904,1602,519.54
+density_threshold,5.0,,228,227,7904,1603,356.35
+particle_mass,0.25,,219,218,7904,1603,343.02
+particle_mass,0.50,,297,296,7904,1608,459.38
+k_postnorm,0.5,,320,319,7904,1610,490.524291
+k_postnorm,2.0,,209,208,7904,1616,328.948128
+speed_cap,1.2,,326,325,7904,1607,507.71
+speed_cap,2.0,,212,211,7904,1611,329.54

@@ -1,0 +1,4 @@
+method,free_speed,capacity_ped_m_s,rho_at_capacity,max_density
+Measurement circle (R=1.0 m),1.284,0.358,0.64,2.23
+kNN (k=6),1.259,0.469,0.69,2.91
+Voronoi cell,0.416,0.41,1.28,2.43

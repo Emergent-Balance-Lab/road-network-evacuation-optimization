@@ -1,0 +1,8 @@
+2026-06-24 07:38:14 | SWEEP START crowd=15000 budget=226800s python=/home/shyr/miniforge3/envs/dl_base/bin/python
+2026-06-24 07:38:14 | RUN base_s1 pop=24 gen=18 cx=0.80 mut=0.08 seed=1 (elapsed=0s)
+2026-06-24 09:35:53 | END base_s1 rc=0
+2026-06-24 09:35:53 | RUN base_s2 pop=24 gen=18 cx=0.80 mut=0.08 seed=2 (elapsed=7059s)
+2026-06-24 11:49:54 | END base_s2 rc=0
+2026-06-24 11:49:54 | RUN base_s3 pop=24 gen=18 cx=0.80 mut=0.08 seed=3 (elapsed=15100s)
+2026-06-24 13:47:29 | END base_s3 rc=0
+2026-06-24 13:47:29 | RUN base_s4 pop=24 gen=18 cx=0.80 mut=0.08 seed=4 (elapsed=22155s)

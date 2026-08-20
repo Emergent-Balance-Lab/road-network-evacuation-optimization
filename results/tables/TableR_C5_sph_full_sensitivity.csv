@@ -1,0 +1,7 @@
+param,value,wall_s,steps,T_total,N0,N_end,metric,pct,label
+k_postnorm,0.5,,320,319,7904,1610,490.524291,24.07636072839968,Post-normalization coefficient $k$ = 0.5
+k_postnorm,2.0,,209,208,7904,1616,328.948128,-16.79375040234289,Post-normalization coefficient $k$ = 2.0
+smoothing_length,1.8,,213,212,7904,1607,334.16,-15.47542606610273,Smoothing length $h$ = 1.8
+smoothing_length,3.0,,311,310,7904,1604,479.94,21.399102267879616,Smoothing length $h$ = 3.0
+density_threshold,3.0,,340,339,7904,1602,519.54,31.415780289732407,Density threshold $\rho_{\max}$ = 3.0
+density_threshold,5.0,,228,227,7904,1603,356.35,-9.862545124059457,Density threshold $\rho_{\max}$ = 5.0

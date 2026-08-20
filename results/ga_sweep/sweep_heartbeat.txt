@@ -1,0 +1,37 @@
+2026-06-24 15:08:20 | SWEEP START crowd=15000 budget=226800s python=/home/shyr/miniforge3/envs/dl_base/bin/python
+2026-06-24 15:08:20 | RUN base_s1 pop=24 gen=18 cx=0.80 mut=0.08 seed=1 (elapsed=0s)
+2026-06-24 16:13:06 | END base_s1 rc=0
+2026-06-24 16:13:06 | RUN base_s2 pop=24 gen=18 cx=0.80 mut=0.08 seed=2 (elapsed=3886s)
+2026-06-24 17:17:58 | END base_s2 rc=0
+2026-06-24 17:17:58 | RUN base_s3 pop=24 gen=18 cx=0.80 mut=0.08 seed=3 (elapsed=7778s)
+2026-06-24 18:24:15 | END base_s3 rc=0
+2026-06-24 18:24:15 | RUN base_s4 pop=24 gen=18 cx=0.80 mut=0.08 seed=4 (elapsed=11755s)
+2026-06-24 19:27:37 | END base_s4 rc=0
+2026-06-24 19:27:37 | RUN base_s5 pop=24 gen=18 cx=0.80 mut=0.08 seed=5 (elapsed=15557s)
+2026-06-24 20:32:26 | END base_s5 rc=0
+2026-06-24 20:32:26 | RUN pop12_s1 pop=12 gen=18 cx=0.80 mut=0.08 seed=1 (elapsed=19446s)
+2026-06-24 21:04:49 | END pop12_s1 rc=0
+2026-06-24 21:04:49 | RUN pop12_s2 pop=12 gen=18 cx=0.80 mut=0.08 seed=2 (elapsed=21389s)
+2026-06-24 21:37:04 | END pop12_s2 rc=0
+2026-06-24 21:37:04 | RUN pop40_s1 pop=40 gen=18 cx=0.80 mut=0.08 seed=1 (elapsed=23324s)
+2026-06-24 23:21:38 | END pop40_s1 rc=0
+2026-06-24 23:21:38 | RUN pop40_s2 pop=40 gen=18 cx=0.80 mut=0.08 seed=2 (elapsed=29598s)
+2026-06-25 01:07:58 | END pop40_s2 rc=0
+2026-06-25 01:07:58 | RUN cx06_s1 pop=24 gen=18 cx=0.60 mut=0.08 seed=1 (elapsed=35978s)
+2026-06-25 02:15:47 | END cx06_s1 rc=0
+2026-06-25 02:15:47 | RUN cx06_s2 pop=24 gen=18 cx=0.60 mut=0.08 seed=2 (elapsed=40047s)
+2026-06-25 03:22:10 | END cx06_s2 rc=0
+2026-06-25 03:22:10 | RUN cx095_s1 pop=24 gen=18 cx=0.95 mut=0.08 seed=1 (elapsed=44030s)
+2026-06-25 04:25:09 | END cx095_s1 rc=0
+2026-06-25 04:25:09 | RUN cx095_s2 pop=24 gen=18 cx=0.95 mut=0.08 seed=2 (elapsed=47809s)
+2026-06-25 05:27:47 | END cx095_s2 rc=0
+2026-06-25 05:27:47 | RUN mut04_s1 pop=24 gen=18 cx=0.80 mut=0.04 seed=1 (elapsed=51567s)
+2026-06-25 06:30:34 | END mut04_s1 rc=0
+2026-06-25 06:30:34 | RUN mut04_s2 pop=24 gen=18 cx=0.80 mut=0.04 seed=2 (elapsed=55334s)
+2026-06-25 07:36:19 | END mut04_s2 rc=0
+2026-06-25 07:36:19 | RUN mut16_s1 pop=24 gen=18 cx=0.80 mut=0.16 seed=1 (elapsed=59279s)
+2026-06-25 08:47:47 | END mut16_s1 rc=0
+2026-06-25 08:47:47 | RUN mut16_s2 pop=24 gen=18 cx=0.80 mut=0.16 seed=2 (elapsed=63567s)
+2026-06-25 09:52:40 | END mut16_s2 rc=0
+2026-06-25 09:52:40 | SWEEP QUEUE COMPLETE — running analysis
+2026-06-25 09:52:41 | SWEEP_ALL_DONE

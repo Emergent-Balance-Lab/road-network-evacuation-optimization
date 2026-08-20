@@ -1,0 +1,37 @@
+make: Entering directory '/home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/src/h_p5'
+/usr/local/cuda/bin/nvcc -std=c++17 -O2 -gencode arch=compute_120,code=sm_120 -gencode arch=compute_120,code=compute_120 -I. -lineinfo -Xcompiler=-Wall,-Wextra -DEVAC_CLEARANCE_TARGET=0.95 -DMAX_SIM_SECONDS=5000  -MMD -MP -c "agent.cu" -o "/home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/build/h_p5/agent.o"
+/usr/local/cuda/bin/nvcc -std=c++17 -O2 -gencode arch=compute_120,code=sm_120 -gencode arch=compute_120,code=compute_120 -I. -lineinfo -Xcompiler=-Wall,-Wextra -DEVAC_CLEARANCE_TARGET=0.95 -DMAX_SIM_SECONDS=5000  -MMD -MP -c "env.cu" -o "/home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/build/h_p5/env.o"
+env.cu: In member function ‘void EnvironmentGPU::copyLayer(int, int)’:
+env.cu:384:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<RasterGPU>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  384 |     if (srcIdx < 0 || srcIdx >= layers.size() ||
+      |                        ~~~~~~~^~~~~~~~~~~~~~~~~~
+env.cu:384:80: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<RasterGPU>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  384 |     if (srcIdx < 0 || srcIdx >= layers.size() ||
+      |                                                                                ^                 
+env.h: At global scope:
+env.h:567:13: warning: ‘void k_fill(float*, float, int)’ declared ‘static’ but never defined [-Wunused-function]
+  567 | __global__ static void k_fill(float* g, float v, int n);
+      |             ^~~~~~
+agent.cu: In function ‘void runNeighborSearch(float*, float*, thrust::THRUST_300001_SM_1200_NS::device_vector<int>&, thrust::THRUST_300001_SM_1200_NS::device_vector<int>&, thrust::THRUST_300001_SM_1200_NS::device_vector<int>&, thrust::THRUST_300001_SM_1200_NS::device_vector<int>&, thrust::THRUST_300001_SM_1200_NS::device_vector<int>&, thrust::THRUST_300001_SM_1200_NS::device_vector<int>&, float)’:
+agent.cu:1130:1: warning: unused parameter ‘d_neighborCount’ [-Wunused-parameter]
+ 1129 |     thrust::device_vector<int>& d_cellEnd,
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1130 |     thrust::device_vector<int>& d_neighborCount,
+      | ^   ~~~~~~~~~~~
+agent.cu:1131:1: warning: unused parameter ‘d_collisionCount’ [-Wunused-parameter]
+ 1130 |     thrust::device_vector<int>& d_neighborCount,
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1131 |     thrust::device_vector<int>& d_collisionCount,
+      | ^   ~~~~~~~~~~~~
+agent.cu:1132:1: warning: unused parameter ‘collision_radius’ [-Wunused-parameter]
+ 1131 |     thrust::device_vector<int>& d_collisionCount,
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1132 |     float collision_radius)
+      | ^   ~~~~~~~~~~~~
+env.h: At global scope:
+env.h:567:13: warning: ‘void k_fill(float*, float, int)’ declared ‘static’ but never defined [-Wunused-function]
+  567 | __global__ static void k_fill(float* g, float v, int n);
+      |             ^~~~~~
+/usr/local/cuda/bin/nvcc -gencode arch=compute_120,code=sm_120 -gencode arch=compute_120,code=compute_120 /home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/build/h_p5/agent.o /home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/build/h_p5/env.o -o "/home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/bin/sph-h_p5"  
+Built: /home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/bin/sph-h_p5
+make: Leaving directory '/home/shyr/workspace/src_ga/revision_2026/uniform_model_sensitivity/src/h_p5'

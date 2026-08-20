@@ -1,0 +1,20 @@
+[ga mut04_s2] decision-vector length = 16 segments
+[ga mut04_s2] gen 1/18 best=843.6 mean=945.8 elapsed=212s
+[ga mut04_s2] gen 2/18 best=803.6 mean=886.4 elapsed=423s
+[ga mut04_s2] gen 3/18 best=721.4 mean=834.0 elapsed=633s
+[ga mut04_s2] gen 4/18 best=702.0 mean=784.0 elapsed=845s
+[ga mut04_s2] gen 5/18 best=671.1 mean=745.3 elapsed=1059s
+[ga mut04_s2] gen 6/18 best=645.1 mean=712.2 elapsed=1273s
+[ga mut04_s2] gen 7/18 best=633.9 mean=685.0 elapsed=1489s
+[ga mut04_s2] gen 8/18 best=624.7 mean=661.0 elapsed=1703s
+[ga mut04_s2] gen 9/18 best=622.7 mean=663.8 elapsed=1922s
+[ga mut04_s2] gen 10/18 best=600.8 mean=643.9 elapsed=2140s
+[ga mut04_s2] gen 11/18 best=599.6 mean=641.9 elapsed=2357s
+[ga mut04_s2] gen 12/18 best=599.6 mean=644.0 elapsed=2572s
+[ga mut04_s2] gen 13/18 best=599.4 mean=626.6 elapsed=2793s
+[ga mut04_s2] gen 14/18 best=579.2 mean=610.2 elapsed=3034s
+[ga mut04_s2] gen 15/18 best=578.0 mean=619.5 elapsed=3271s
+[ga mut04_s2] gen 16/18 best=578.0 mean=608.2 elapsed=3486s
+[ga mut04_s2] gen 17/18 best=576.6 mean=603.3 elapsed=3712s
+[ga mut04_s2] gen 18/18 best=577.8 mean=594.6 elapsed=3945s
+[ga mut04_s2] DONE evals=432 wall=3945s

@@ -1,0 +1,54 @@
+[ga_sweep] 17 configs processed
+[ga_sweep] baseline final-best CV=0.0020 over 5 seeds
+[ga_sweep] sensitivity figure done
+[
+ {
+  "tag": "base_s1",
+  "family": "baseline",
+  "pop": 24,
+  "cx": 0.8,
+  "mut": 0.08,
+  "seed": 1,
+  "final_best": 580.63,
+  "conv_gen": 17,
+  "best_evac": 558.9,
+  "best_cost": 217.0,
+  "n_eval": 432
+ },
+ {
+  "tag": "base_s2",
+  "family": "baseline",
+  "pop": 24,
+  "cx": 0.8,
+  "mut": 0.08,
+  "seed": 2,
+  "final_best": 577.83,
+  "conv_gen": 11,
+  "best_evac": 559.5,
+  "best_cost": 183.4,
+  "n_eval": 432
+ },
+ {
+  "tag": "base_s3",
+  "family": "baseline",
+  "pop": 24,
+  "cx": 0.8,
+  "mut": 0.08,
+  "seed": 3,
+  "final_best": 577.59,
+  "conv_gen": 10,
+  "best_evac": 576.7,
+  "best_cost": 8.4,
+  "n_eval": 432
+ },
+ {
+  "tag": "base_s4",
+  "family": "baseline",
+  "pop": 24,
+  "cx": 0.8,
+  "mut": 0.08,
+  "seed": 4,
+  "final_best": 577.52,
+  "conv_gen": 11,
+  "best_evac": 576.7,
+  "best_cost":
