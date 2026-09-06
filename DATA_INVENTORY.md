@@ -19,7 +19,7 @@
 1. `collision_calibration_curves.csv` 和 `collision_calibration_summary.csv`：从原始碰撞标定逐帧数据按原分析逻辑提取的曲线与统计量；
 2. `congestion_heatmap_downsampled.npz`：由原始三层二进制网格按 8×8 块聚合得到，包含道路掩膜、累计密度、累计拥堵和元数据。
 
-这两个紧凑数据分别替代约 2.43 GB 的碰撞逐帧文件和约 3.52 GB 的原始热力图层。它们足以直接重绘相应图片，同时避免 GitHub 仓库被不可审查的大型中间文件占满。原修订图片仍完整保存在 `figures/revision/`，论文采用图片保存在 `manuscript/fig/`。
+这两个紧凑数据分别替代约 2.43 GB 的碰撞逐帧文件和约 3.52 GB 的原始热力图层。它们足以直接重绘相应图片，同时避免 GitHub 仓库被不可审查的大型中间文件占满。原修订图片仍完整保存在 `figures/revision/`；论文源文件及投稿参考图片不在本仓库公开。
 
 ## 数据使用约定
 

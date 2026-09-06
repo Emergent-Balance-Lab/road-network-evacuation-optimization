@@ -4,7 +4,7 @@ This repository is the public reproducibility package for the published paper:
 
 > **A Novel Simulation-based Approach to Optimizing Road Networks for Disaster Evacuation in Dense Urban Informal Settlements**
 
-It consolidates the final manuscript, publication figures, legacy experiment results, 2026 revision results, and the complete public analysis and plotting code needed to regenerate the reported result figures directly from the released data.
+It consolidates legacy experiment results, 2026 revision results, and the complete public analysis and plotting code needed to regenerate the reported result figures directly from the released data.
 
 Author website: **[Chun Song — https://chun-song.com](https://chun-song.com)**
 
@@ -16,12 +16,13 @@ The complete release-ready analysis and plotting code for this paper is maintain
 
 This public package contains:
 
-- the final submitted manuscript and its bibliography;
-- all figures used by the final manuscript;
 - legacy and revision-stage result datasets needed for analysis and figure reproduction;
 - all direct result-to-figure Python pipelines;
 - generated figures, tables, and derived statistics;
 - a SHA-256 manifest and an automated release validator.
+
+The manuscript TeX/BibTeX source, manuscript PDF, and submitted-reference
+figure bundle are intentionally not distributed in this repository.
 
 In accordance with the release boundary for this publication, C/C++/CUDA simulator source files, native executables, compiled libraries, and build products are not included. Python scripts whose sole purpose was to invoke a local native simulator are also outside this result-to-figure release. The complete public code referred to here therefore means the complete analysis and visualization code that can run from the released results.
 
@@ -29,7 +30,6 @@ In accordance with the release boundary for this publication, C/C++/CUDA simulat
 
 ```text
 EBL/
-├── manuscript/                 # Final paper, bibliography, and manuscript fig/
 ├── plotting/                   # All analysis and plotting Python code
 │   ├── common_paths.py         # Single source of truth for repository paths
 │   └── run_all.py              # One-command entry point for all pipelines
@@ -43,7 +43,6 @@ EBL/
 │   ├── physical_optimization_sensitivity/
 │   └── sim_runs/
 ├── figures/
-│   ├── manuscript/             # Central copy of final manuscript figures
 │   ├── revision/               # Revision-stage figure archive
 │   └── generated/              # Figures regenerated directly from results
 ├── generated/
@@ -104,7 +103,9 @@ The full mapping between released input data, plotting scripts, generated figure
 - C4 runtime scaling and optimization;
 - C5 GA, SPH, model, NSGA-II, and physical-optimization sensitivity analyses.
 
-The manuscript's actual figure files remain under `manuscript/fig/`. Regenerated outputs are deliberately written to `figures/generated/`, allowing a reviewer to compare regenerated artifacts with the submitted versions without overwriting them.
+Regenerated outputs are written to `figures/generated/`. They are analytical
+reproduction outputs rather than a bundled copy of the submitted-reference
+figures.
 
 ## Released data
 
@@ -132,7 +133,10 @@ python3 verify_release.py
 sha256sum -c MANIFEST.sha256
 ```
 
-The validator checks required paths, Python syntax, centralized path use, active manuscript figure references, machine-specific paths, forbidden native formats, executable signatures and permissions, per-file size, key generated artifacts, and SHA-256 hashes.
+The validator checks required paths, Python syntax, centralized path use, the
+absence of manuscript-source artifacts, machine-specific paths, forbidden
+native formats, executable signatures and permissions, per-file size, key
+generated artifacts, and SHA-256 hashes.
 
 ## Citation
 
@@ -147,11 +151,10 @@ The journal-formatted citation and DOI should be taken from the final publisher 
 - Canonical EBL repository: [https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization](https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization)
 - Personal account entry: [https://github.com/Shyr0796/road-network-evacuation-optimization](https://github.com/Shyr0796/road-network-evacuation-optimization)
 - Author website: [https://chun-song.com](https://chun-song.com)
-- Final manuscript: [`manuscript/CEUS.pdf`](manuscript/CEUS.pdf)
 - Plotting index: [`PLOTTING_INDEX.md`](PLOTTING_INDEX.md)
 - Data inventory: [`DATA_INVENTORY.md`](DATA_INVENTORY.md)
 - Validation record: [`VALIDATION.md`](VALIDATION.md)
 
 ---
 
-中文说明：本仓库是论文的公开复现材料。论文对应的完整结果分析与绘图代码均集中在 `plotting/`，可直接读取 `results/` 中发布的数据生成图片和表格。完整代码的正式地址是 [Emergent-Balance-Lab/road-network-evacuation-optimization](https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization)，项目与作者信息可访问个人网页 [https://chun-song.com](https://chun-song.com)。
+中文说明：本仓库是论文的公开复现材料。论文对应的完整结果分析与绘图代码均集中在 `plotting/`，可直接读取 `results/` 中发布的数据生成图片和表格；论文 TeX/BibTeX、论文 PDF 及投稿参考图片不在本仓库公开。完整代码的正式地址是 [Emergent-Balance-Lab/road-network-evacuation-optimization](https://github.com/Emergent-Balance-Lab/road-network-evacuation-optimization)，项目与作者信息可访问个人网页 [https://chun-song.com](https://chun-song.com)。
